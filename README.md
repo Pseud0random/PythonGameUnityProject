@@ -14,4 +14,4 @@ Notes:
 - ^ How to link the repository to github (+ push updates)
   - Git LFS: https://git-lfs.github.com/
   - Git ignore file (if needed): https://raw.githubusercontent.com/github/gitignore/main/Unity.gitignore
-  - 
+  - Use command "git push -u origin main" to push update to main branch
