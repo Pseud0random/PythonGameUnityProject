@@ -5,8 +5,12 @@ Initial project template for the python learning game.
 - Made a basic unity template to design basic components and test stuff.
 - Drone can navigate towards player.
 - Player can collide with walls.
+- addeed triggers
+- added animation
+- started basic game
 
 2. Pushing updates in git GUI (IMPORTANT):
+- First you need to pull the existing repository from here using the CMD: "git pull" (it wont work without doing this).
 - Open the repositroy in Git GUI (i woulden't compress when prompted because idk if that will wreck the unity project).
 - If the update is to be made to a specific branch press branch (at the top), checkout, then the branch to be updated. 
 - Click "stange changed". 
