@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Animations/Body_Front.controller.meta
 guid: f29f58c6e9c491741b75e7275dbc7700
+========
+guid: d8b43275d4e01424680293a253438995
+>>>>>>>> ed8c08b9fc7d8adb72123946bc60ef5daacff1a9:Assets/Animations/DroneAnimate.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Animations/Body_Back.controller.meta
 guid: c921753fbb36d3a44ac9f2e22c825eb7
+========
+guid: f29f58c6e9c491741b75e7275dbc7700
+>>>>>>>> ed8c08b9fc7d8adb72123946bc60ef5daacff1a9:Assets/Animations/Body_Front.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000
