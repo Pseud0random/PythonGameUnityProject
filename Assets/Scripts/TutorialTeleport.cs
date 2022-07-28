@@ -8,6 +8,7 @@ public class TutorialTeleport : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
+        
         SceneManager.LoadScene(2);
     }
 }
