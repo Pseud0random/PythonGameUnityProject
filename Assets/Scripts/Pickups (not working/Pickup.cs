@@ -20,7 +20,7 @@ public class Pickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 50.0f, Color.red);
+        //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 50.0f, Color.red);
         CheckForPickup();
     }
 
@@ -31,7 +31,7 @@ public class Pickup : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Mouse0))
             {
-                if(hit.transform.gameObject.GetComponent<Pickupable>())
+                if (hit.transform.gameObject.GetComponent<Pickupable>())
                 {
                     //pickup box
                     hit.transform.gameObject.GetComponent<Pickupable>().SetPickedUpState(holdPosition);
@@ -41,7 +41,7 @@ public class Pickup : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Mouse1))
         {
-            if(hit.transform.GetComponent<Pickupable>())
+            if (hit.transform.GetComponent<Pickupable>())
             {
                 //drop box
                 hit.transform.gameObject.GetComponent<Pickupable>().SetDroppedState();
@@ -49,3 +49,7 @@ public class Pickup : MonoBehaviour
         }
     }
 }
+
+/*
+ *  
+*/
